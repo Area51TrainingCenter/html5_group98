@@ -1,0 +1,23 @@
+a{
+
+}
+.parrafo1{
+	color: red;
+	font-family: arial;
+	font-size: 20px;
+	text-transform: none;
+	line-height: 1.3;
+	text-align: left;
+	letter-spacing: 1px;
+	word-spacing: 15px;
+	/*text-decoration:line-through;*/
+	
+}
+.preciobase .tachado{
+	text-decoration: line-through;
+	/*cursor: pointer;*/
+	
+}
+.precioactual{
+	font-weight: bold;
+}

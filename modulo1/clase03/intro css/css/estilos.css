@@ -1,0 +1,48 @@
+body{
+	font-family: arial,tahoma;
+}
+h1{
+	color: blue;
+}
+/*
+p{
+	color: orange;
+}
+*/
+#parrafo2{
+	color: blue;
+	font-family: tahoma;
+}
+
+.parrafo3{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+#parrafo1{
+	color: maroon;
+}
+.texto1{
+	color: pink;
+}
+p{
+	color: red;
+}
+/*
+p .subtexto{
+	font-weight: bold;
+	font-size: 30px;
+}*/
+
+p.texto1 span.subtexto{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+span.subtexto{
+	font-weight: bold;
+	font-size: 20px;
+}
+
