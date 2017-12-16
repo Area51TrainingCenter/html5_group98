@@ -1,0 +1,23 @@
+
+.texto1{
+	color: orange;
+	font-size: 20px;
+	letter-spacing: 5px;
+	word-spacing: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.texto2{
+	font-size: 15px;
+	font-style: italic;
+	background-color: yellow;
+	/*
+	color: #fff000;
+	color: rgb(100,100,50);
+	color:rgba(100,100,50,0.5);
+	color: hsl(0,100%,50%);
+	color:hsla(0,100%,50%,0.3);
+	*/
+	color: rgba(100,100,100,1)
+}

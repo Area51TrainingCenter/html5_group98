@@ -1,0 +1,66 @@
+.texto1{
+	background-color: red;
+	width: 400px;
+	display: inline-block;
+}
+
+.texto2{
+	background-color: yellow;
+	width: 400px;
+}
+
+.texto3{
+	background-color: orange
+}
+
+.texto4{
+	background-color: pink
+}
+
+/** 
+por defecto los elementos de tipo block son :
+h1 - h6
+p
+ul
+li
+ol
+section
+article
+aside
+footer
+header
+nav
+div
+;
+Por defecto los elementos de tipo inline son :
+span
+a
+cite
+mark
+img
+strong
+
+*/
+.col1{
+width: 200px;
+height: 100px;
+background-color: red;
+display: inline-block;
+vertical-align: top;
+
+}
+.col2{
+
+width: 200px;
+height: 150px;
+background-color: blue;
+display: inline-block;
+vertical-align: top;
+}
+.col3{
+width: 200px;
+height: 80px;
+background-color: orange;
+display: inline-block;
+vertical-align: top;
+}

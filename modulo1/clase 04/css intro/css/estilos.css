@@ -1,0 +1,50 @@
+body{
+	font-family: arial;
+}
+h1{
+	color: blue;
+	font-size: 40px;
+}
+
+p{
+	color: gray;
+}
+
+#parrafo1{
+	color: skyblue;
+}
+#parrafo2{
+	color: pink;
+}
+
+#texto-rojo{
+	color: red;
+}
+
+
+#parrafo3id{
+	color: orange;
+}
+.parrafo3{
+	color: purple;
+}
+.parrafo4{
+	color: red;
+}
+.textobold{
+	font-weight: bold;
+}
+.big-text{
+	font-size: 30px;
+}
+.text-arial{
+	font-family: arial;
+}
+/* identificadores */
+/*
+ID = es único y no puede repetirse
+CLASS = pueden ser varios y si pueden repetirse
+
+ID>CLASS>Etiqueta
+*/
+
