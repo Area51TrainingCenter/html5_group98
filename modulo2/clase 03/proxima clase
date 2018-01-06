@@ -1,0 +1,24 @@
+proxima clase
+Position : Absolute
+Position : Relative
+Position : fixed
+
+text-shadow: sombra de texto
+box-shadow: sombra de la caja
+
+Overflow :  hidden
+Overflor : scroll
+
+fuentes propias:  archvios propios
+
+Transiciones: 
+Transformacion:
+Animation:
+
+pseudoselectores:
+div p:first-child
+div p:last-child
+
+
+bootstrap
+

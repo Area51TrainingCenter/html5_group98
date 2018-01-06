@@ -1,0 +1,92 @@
+/*@media screen and (min-width: 0px) and (max-width: 1130px){
+	.container{
+		width: 100%;
+		text-align: center;
+	}
+
+
+	.news-item{
+	
+		float: none;
+	display: inline-block;
+	vertical-align: top;
+
+
+	}
+	.box-laterral{
+	
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		text-align: left;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 810px){
+	.news-item{
+		width: 100%;
+	}
+}
+@media screen and (min-width: 551px) and (max-width: 650px){
+.item-new{
+	width: 45%;
+}
+}
+
+@media screen and (min-width: 0px) and (max-width: 550px){
+.item-new{
+	width: 100%;
+}
+}
+*/
+
+@media (max-width: 1130px){
+.container{
+	width: 100%;
+}
+.news-item{
+	width: 100%;
+}
+.item-new{
+	width: 21%;
+	margin:1%;
+}
+
+.box-laterral{
+	width: 100%;
+}
+.lateral-news{
+	width: 100%;
+}
+.lateral-news .item-new{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+.title-lateral-news{
+	display: block;
+}
+}
+
+@media (max-width: 850px){
+	.item-new{
+	width: 30%;
+	margin:1%;
+}
+}
+@media (max-width: 650px){
+	.item-new{
+	width: 41%;
+	margin:1%;
+}
+.lateral-news .item-new{
+	width: 100%;
+}
+}
+
+@media (max-width: 380px){
+	.item-new{
+	width: 90%;
+	margin:5%;
+}
+}
