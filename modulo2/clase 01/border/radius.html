@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Border radius</title>
+</head>
+<body>
+	
+	<div class="box1"></div>
+	<div class="box2">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est a doloremque quod deleniti tempore enim rem similique blanditiis aliquam deserunt! Sapiente nihil incidunt voluptas facere quisquam excepturi accusantium delectus iste?</p>
+	</div>
+
+	<img class="redondo" src="pedro.jpg" alt="">
+</body>
+</html>
+<style>
+	.box1{
+		width: 600px;
+		height: 200px;
+		background-color: black;
+		/*border-radius: 40px;*/
+		border-top-left-radius:10px ;
+		border-top-right-radius:30px;
+		border-bottom-right-radius:40px ;
+		border-bottom-left-radius:50px ;
+
+
+		border-radius: 170px 170px 0px 0px;
+		/*border-radius:top left , top right , bottom right , bottom left,*/
+
+
+		border:5px solid red;
+		border-left: 5px solid blue;
+	}
+
+	.box2{
+		width: 500px;
+		height: 500px;
+		background-color: blue;
+		border-radius: 50%;
+		
+	}
+	.redondo{
+		border-radius: 50%;
+	}
+</style>

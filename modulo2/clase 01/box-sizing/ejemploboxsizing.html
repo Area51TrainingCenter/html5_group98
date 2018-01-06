@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo uso box sizing</title>
+	<link rel="stylesheet" href="../reset.css">
+</head>
+<body>
+	<div class="box">
+		<div class="box1">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa velit saepe nihil numquam reprehenderit voluptatibus nesciunt quam fugiat deserunt! Et hic quasi deserunt placeat, consequuntur praesentium? Qui nisi veniam numquam.</p>
+		</div>
+		<div class="box2"></div>
+	</div>
+
+</body>
+</html>
+
+<style>
+*{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-o-box-sizing:border-box;
+}
+	.box{
+		width: 700px;
+		background-color: black;
+	}
+	.box1{
+		width: 347px;
+		height: 300px;
+		display: inline-block;
+		vertical-align: top;
+		background-color: red;
+		border:50px solid yellow;
+
+
+	}
+	.box2{
+		width: 347px;
+		height: 300px;
+		display: inline-block;
+		vertical-align: top;
+		background-color: blue;
+		border:5px solid pink;
+	}
+</style>

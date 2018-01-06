@@ -1,0 +1,59 @@
+*
+{
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+}
+
+
+
+.container{
+	width: 970px;
+	height: 500px;
+	background-color: red;
+	margin:0 auto;
+}
+/* las lineas de css que definia en este ambito , sera validas
+	solamente para este rango de pantallas*/
+/*
+@media screen and (min-width: 0px) and (max-width: 970px){
+	
+.container{
+	width: 100%;
+	background-color: blue;
+
+}
+
+
+
+}*/
+@media screen and (min-width: 0px) and (max-width: 970px){
+.container{
+	width: 90%;
+}
+}
+
+@media screen and (min-width: 0px) and (max-width: 501px){
+.container{
+	background-color: orange;
+
+}
+}
+
+@media screen and (min-width: 501px) and (max-width: 600px){
+
+.container{
+	
+	background-color: maroon;
+
+}
+}
+
+@media screen and (min-width: 601px) and (max-width: 970px){
+.container{
+	background-color: skyblue;
+
+
+}
+}

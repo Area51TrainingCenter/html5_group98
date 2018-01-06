@@ -1,0 +1,11 @@
+temas de la proxima clase
+
+media query
+
+@media and (min-width:0px) and  (max-width:500px){
+ //
+ .secion{
+ backgrond-color:blue
+ }	
+
+}
