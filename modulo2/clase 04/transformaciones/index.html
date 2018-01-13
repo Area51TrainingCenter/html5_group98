@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="box0">
+	<span>HOLA</span>
+</div>
+<div class="box0"></div>
+<div class="box0"></div>
+<div class="box">
+	
+	<img src="http://via.placeholder.com/200x200">
+</div>
+<div class="box3"></div>
+
+
+</body>
+</html>
+<style type="text/css">
+.box0{
+	width: 200px;
+	height: 100px;
+	background-color: orange;
+	transform: skew(-30deg);
+	display: inline-block;vertical-align: top;
+}
+.box0 span{
+	display: inline-block;
+
+	transform: skew(30deg);
+
+}
+
+
+	.box{
+		width: 200px;
+		height: 200px;
+		background-color: red;
+		/*transition-property: all;
+		transition-duration: 0.5s;
+		transition-delay: 0s;
+		transition-timing-function: linear;
+		*/
+		transition:all 0.3s linear ;
+
+	}
+	.box:hover{
+		/*transform: rotate(-60deg);*/
+		/*transform: translate(100px,50px);
+		transform: skew(180deg);*/
+			/*transform: rotateX(-180deg);*/
+
+	}
+
+	.box3{
+		width: 200px;
+		height: 200px;
+		background-color: blue;
+		margin:40px;
+		transition: all 0.3s linear;
+	}
+	.box3:hover{
+		/*width: 230px;
+		height: 230px;*/
+		transform: scale(1.5,1.5);
+	}
+
+
+</style>
