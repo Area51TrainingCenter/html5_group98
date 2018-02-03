@@ -16,9 +16,30 @@
 	<!-- Set up your HTML -->
 <div class="owl-carousel">
   <div> 
-  	<div class="slide1"> </div>
-  	<!--<img src="slider1.jpg">-->
+  	<!--<div class="slide1"> </div>-->
+  	<img src="slider1.jpg">
   </div>
+  <div> 
+  	<!--<div class="slide1"> </div>-->
+  	<img src="slider1.jpg">
+  </div>
+  <div> 
+  	<!--<div class="slide1"> </div>-->
+  	<img src="slider1.jpg">
+  </div>
+  <div> 
+  	<!--<div class="slide1"> </div>-->
+  	<img src="slider1.jpg">
+  </div>
+  <div> 
+  	<!--<div class="slide1"> </div>-->
+  	<img src="slider1.jpg">
+  </div>
+  <div> 
+  	<!--<div class="slide1"> </div>-->
+  	<img src="slider1.jpg">
+  </div>
+
  
 
  
@@ -29,30 +50,33 @@
 <script type="text/javascript">
 	$(window).load(function(){
 		//flexslider()
-		$(".owl-carousel").owlCarousel({
-			items:1,
+		/*$(".owl-carousel").owlCarousel({
+			items:3,
 			margin:20,
 			loop:true,
 			responsive:{
 				 0:{
-		            items:1,
+		            items:3,
 		            nav:false
 		        },
 		        600:{
-		            items:1,
+		            items:3,
 		            nav:false
 		        },
 		        970:{
-		            items:1,
+		            items:3,
 		            nav:false
 		        }
 			}
-		});
+		});*/
 	})
 
-	//$(document).ready(function(){
-  		// $(".owl-carousel").owlCarousel();
-	//});
+	$(document).ready(function(){
+  		$(".owl-carousel").owlCarousel({
+			items:1,
+			margin:20,
+			loop:true});
+	});
 
 
 </script>
