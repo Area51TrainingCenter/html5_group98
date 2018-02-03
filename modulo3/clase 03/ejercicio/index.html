@@ -16,12 +16,16 @@
 			    <label>Email</label>
 			    <input type="text" class="form-control" id="inpEmail"
 			           placeholder="Introduce tu email">
+			       <span class="error-msg"></span>
+			       <span class="check-msg"></span>
 			  </div>
 			 
 			   <div class="form-group">
 			    <label >Nombres</label>
 			    <input type="text" class="form-control" id="inpNombre"
 			           placeholder="Introduce Nombres">
+			            <span class="error-msg"></span>
+			       <span class="check-msg"></span>
 			  </div>
 			  <div class="form-group">
 			    <label >Apellidos</label>
@@ -100,7 +104,109 @@
 		</div>
 
 	</div>
+	<style type="text/css">
+		.error-msg{
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			background-color: #F13434;
+			border-radius: 50%;
+			position: absolute;
+			right: 8px;
+    		top: 32px;
+    		display: none;
+		}
+		.check-msg{
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			background-color: green;
+			border-radius: 50%;
+			position: absolute;
+			right: 8px;
+    		top: 32px;
+    		display: none;
+    	
+		}
+		.form-group{
+			position: relative;			
+		}
+	</style>
 	<script type="text/javascript" src="js/jquery-1.12.3.js">
 	</script>
+	
+	<script type="text/javascript" src="js/funciones.js"></script>
 </body>
 </html>
+
+<script type="text/javascript">
+	
+// metodo convecnional 
+/*
+$("#btngrabar").click(function(e){
+	//event.preventDefault() anula los eventos que tenga
+// asignados por defecto 
+	e.preventDefault();
+	alert("click");
+});
+*/
+/* metodo basico **/
+
+
+/*
+$("#btngrabar").click(grabar);
+
+function grabar(){
+
+	var nombre=$("#inpNombre").val();
+	var appelido=$("#inpApellidos").val();
+	var correo=$("#inpEmail").val();
+	var facebook=$("#inpFacebook").val();
+	var twitter=$("#inpTwitter").val();
+	var tipo=$("#inpTipo").val();
+	console.log(tipo);
+	var lista=$("#lista-contactos");
+		  
+	lista.append('<div class="col-sm-6 col-md-6 agenda '+tipo + '">'
+				+'<div class="thumbnail">'
+				+'<img src="user.png" alt="...">'
+				+'<div class="caption">'
+				+' <h3>'+nombre+" "+appelido+"("+tipo+")"+'</h3>'
+				+'<p>'+correo+'</p>'
+				+'<p><a target="_blank" href="'+facebook+'" class="btn btn-primary" role="button">Facebook</a> <a href="'+twitter+'" target="_blank" class="btn btn-default" role="button">Twitter</a></p>'
+				+'</div></div></div>'
+
+		)
+			   
+			     
+			      
+			       
+			       
+			        
+			      
+			    
+			  
+	return false;
+}
+
+
+$(".filtros li").click(function (){
+	$(".filtros li").removeClass("active")
+	
+	$(".agenda").hide();
+	$(this).addClass("active");
+	
+	var filtro=$(this).attr("data-filtro");
+	
+	if(filtro=="todos"){
+		$(".agenda").show();
+	}
+	else{
+		$("."+filtro).show();
+	}
+
+
+
+})
+*/
+</script>
