@@ -1,0 +1,288 @@
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.wrapper{
+	width: 1024px;
+	margin:0 auto;
+	/*background-color: gray;*/
+}
+
+/**********************/
+/*** estilos header ***/
+/**********************/
+.ui-logo{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 20px;
+	/*background-color: red;*/
+
+}
+
+
+.ui-menu-top{
+	display: inline-block;
+	vertical-align: top;
+	/*background-color: blue;*/
+	width: 850px;
+	text-align: right;
+
+}
+
+.ui-menu-top li{
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px 15px;
+}
+
+.ui-menu-top li a{
+	color: gray;
+	text-decoration: none;
+
+}
+.ui-menu-top li a:hover{
+color: green;
+text-decoration: none;
+}
+
+
+.menu-home{
+	background-color: black;
+	border-radius: 7px;
+	margin-top: 10px;
+}
+
+.menu-home ul li{
+	color: white;
+	display: inline-block;
+	vertical-align: top;
+	padding: 17px 15px;
+	font-size: 14px;
+}
+.menu-home span{
+	color: white;
+	padding: 17px 15px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+}
+
+.menu-home ul{
+	
+	display: inline-block;
+	vertical-align: top;
+	 width: 860px;
+
+}
+
+.active{
+	background-color: #2ecc71;
+	
+	border-top-left-radius: 7px;
+	-moz-border-top-left-radius: 7px;
+	-webkit-border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	-moz-border-bottom-left-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+
+
+}
+/**************************/
+/*** fin estilos header ***/
+/**************************/
+
+
+/*** estilos seccion principal ***/
+.rel{
+	position: relative;
+}
+.seccion-slider{
+	margin-top: 10px;
+}
+.ui-img-seccion
+{width: 100%}
+
+.ui-text-slider{
+	position: absolute;
+}
+
+.text1{
+	font-size: 35px;
+    color: gray;
+    top: 110px;
+    left: 160px;
+}
+
+.text2{
+	font-size: 60px;
+	font-weight: bold;
+    
+    top: 220px;
+    left: 85px;
+    color: black;
+}
+
+.text3{
+	font-size: 17px;
+	font-weight: bold;
+	background-color: white;
+	/*background-color: #2ecc71;*/
+    padding: 12px 17px;
+       top: 330px;
+    left: 135px;
+    color: black;
+}
+
+.text4{
+	font-size: 17px;
+	padding: 12px 17px;
+	font-weight: bold;
+	background-color: white;
+	background-color: #2ecc71;
+    color: white;
+   top: 330px;
+    left: 270px;
+
+}
+
+/*** fin de estilos seccion slider **/
+
+.seccion-ofertas{
+	background-color: red;
+}
+.seccion-ofertas .item{
+	width: 250px;
+	height: 150px;
+	background-image:url(../imagenes/banner1.png);
+	background-size: cover;
+	/*background-size: 100% 100%;*/
+	/*background-repeat: no-repeat;*/
+	text-align: center;
+	float: left;
+	margin: 3px;
+
+
+
+}
+
+.ui-capa
+{
+	width: 250px;
+	height: 150px;
+	background-color: rgba(0,0,0,0.5);
+	opacity: 0;
+	
+}
+.ui-capa:hover{
+		opacity: 1;
+	   
+	
+}
+
+.item-text1{
+	font-size: 25px;
+	color: white;
+	display: inline-block;
+	margin-top: 30px;
+
+}
+.item-text2{
+
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+	margin-top: 15px;
+}
+/*
+.item2{
+	width: 280px;
+	height: 150px;
+	position: relative;
+	text-align: center;
+}
+	
+.item2 img{
+
+	width: 100%
+}
+
+.item2 .ui-capa-2{
+	width: 280px;
+	height: 153px;
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color:rgba(0,0,0,0.5);
+	opacity: 0;
+}
+
+.item2 .ui-capa-2:hover
+{
+opacity: 1;
+}
+*/
+
+/** estilos seccion promocion **/
+
+
+
+/** fin de estilos seccion promocion**/
+
+/** secion tab **/
+
+.tab{
+	
+	
+	width: 765px;
+	margin: 0 auto;
+}
+.tab li{
+	/*display: inline-block;*/
+	float: left;
+	
+	border-bottom:1px dotted gray;
+	font-size: 22px;
+	padding: 25px 140px;
+
+
+}
+
+
+.item-producto{
+	width: 250px;
+	
+	
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.item-producto img{
+	width: 250px;
+}
+
+.item-producto .ui-nombre{
+font-size: 26px;
+font-weight: bold;
+color: black;
+padding: 10px;
+display: inline-block;
+}
+
+.item-producto .ui-precio{
+font-size: 20px;
+font-weight: bold;
+color: green;
+padding: 5px;
+display: inline-block;
+}
+/** utilitarios **/
+
+.clear{
+	clear: both;
+}
+

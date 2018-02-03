@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+</head>
+<body>
+	
+	<span id="cambiar">ocultar</span>
+	<span id="cambiar2">mostar</span>
+<br>
+	<h1 id="title">titulo</h1>
+	<style>
+		.activo{
+			background-color: red;
+			color:white;
+		}
+	</style>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script>
+		$("#cambiar").click(function (){
+			//$("#title").html("cambiando title");	
+			//$("#title").toggleClass("activo")
+			//$("#title").hide(4000);
+			$("#title").fadeOut(5000);
+		})
+		$("#cambiar2").click(function (){
+			//$("#title").html("cambiando title");	
+			//$("#title").toggleClass("activo")
+			//$("#title").show(1000);
+			$("#title").fadeIn(5000);
+		})
+
+		
+
+
+	</script>
+</body>
+</html>
+
+
+

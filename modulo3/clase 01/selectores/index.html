@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+</head>
+<body id="body-site" class="">
+<h1 id="title-site">Bienvenido</h1>
+<ul>
+	<li id="azul">cambiar a azul</li>
+	<li id="rojo">cambiar a rojo</li>
+</ul>
+<div class="modal">
+	<div class="box-modal">
+		<h2>contenido modal</h2>
+	</div>
+</div>
+<script src="js/main.js"></script>
+</body>
+
+</html>
+
+<style>
+	h1{
+		transition: all 0.3s linear;
+	}
+	.blue{
+		color:blue;
+	}
+	.red{
+		color:red;
+	}
+	li{
+		cursor: pointer;
+	}
+
+	.modal{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		left: 0px;
+		top:0px;
+		display: none;
+	}	
+	.box-modal{
+		width: 400px;
+		margin:40px auto;
+		padding: 20px;
+		text-align: center;
+		background-color: white;
+	}
+	.modal-activo .modal{
+		display: block;
+	}
+</style>

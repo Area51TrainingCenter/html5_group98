@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+</head>
+<body>
+
+
+<div class="container">
+	<!-- Set up your HTML -->
+<div class="owl-carousel">
+  <div> 
+  	<div class="slide1"> </div>
+  	<!--<img src="slider1.jpg">-->
+  </div>
+ 
+
+ 
+
+</div>
+
+</div>
+<script type="text/javascript">
+	$(window).load(function(){
+		//flexslider()
+		$(".owl-carousel").owlCarousel({
+			items:1,
+			margin:20,
+			loop:true,
+			responsive:{
+				 0:{
+		            items:1,
+		            nav:false
+		        },
+		        600:{
+		            items:1,
+		            nav:false
+		        },
+		        970:{
+		            items:1,
+		            nav:false
+		        }
+			}
+		});
+	})
+
+	//$(document).ready(function(){
+  		// $(".owl-carousel").owlCarousel();
+	//});
+
+
+</script>
+</body>
+</html>
+
+<style type="text/css">
+	.container{
+		width: 100%;
+		max-width: 970px;
+		margin:0 auto;
+	}
+	.slide1{
+		height: 327px;
+
+		background-image: url(slider1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+</style>

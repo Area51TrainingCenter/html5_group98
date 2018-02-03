@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<style>
+		.container{
+			width: 970px;
+			margin: 0 auto;
+		}
+		.list-img{
+			text-align: center;
+		}
+		.principal img{
+			width: 100%;
+		}
+		.list-img li{display: inline-block;
+			vertical-align: top;
+			margin:15px;
+			width: 180px}
+			.list-img li img{
+				width: 100%;
+			}
+
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="principal">
+		<img src="img/images.jpg" alt="">
+	</div>
+	<ul class="list-img">
+		<li data-img="img/images_full.jpg" >
+			<img src="img/images.jpg" alt="">
+		</li>
+		
+		<li data-img="img/images_full.jpg">
+			<img src="img/images2.jpg" alt="">
+		</li>
+		<li data-img="img/images_full.jpg">
+			<img src="img/images3.jpg" alt="">
+		</li>
+		<li data-img="img/images_full.jpg">
+			<img src="img/images4.jpg" alt="">
+		</li>
+	</ul>
+</div>
+<script src="js/main.js"></script>
+
+	
+</body>
+</html>

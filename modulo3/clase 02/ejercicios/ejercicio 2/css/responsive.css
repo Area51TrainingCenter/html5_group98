@@ -1,0 +1,100 @@
+@media (min-width: 0px) and (max-width: 1024px){
+	.wrapper{
+		width: 100%;
+	}
+	.ui-menu-top{
+		width: 100%;
+		text-align: center;
+	}
+	.ui-logo{
+		display: block;
+		text-align: center;
+	}
+	.menu-home{
+		display: none;
+	}
+	.text1{
+		top: 10%;
+		left: 5%;
+		font-size: 20px;
+	}
+	.text2{
+		top: 25%;
+		left: 5%;
+		font-size: 25px;
+	}
+	.text3{
+		font-size: 14px;
+		top: 50%;
+		left: 5%;
+	}
+	.text4{
+		font-size: 14px;
+		top: 50%;
+		left: 35%;
+	}
+
+.seccion-ofertas .item{
+		width: 48%;
+		margin:1%;
+
+	}
+.item-producto{
+	width: 32%;
+	background-color: red;
+}
+.item-producto img{
+	width: 100%;
+}
+.section-productos{
+	text-align: center;
+}
+}
+@media (min-width: 0px) and (max-width: 790px){
+	.tab
+	{
+		width: 100%;
+	}
+	.tab li{
+		width: 100%;
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.ui-capa{
+		width: 100%;
+	}
+}
+
+
+@media (min-width: 0px) and (max-width: 520px){
+	.item-producto{
+	width: 48%;
+	background-color: red;
+}
+	
+}
+@media (min-width: 0px) and (max-width: 370px){
+	.item-producto{
+	width: 100%;
+	background-color: red;
+}
+	
+}
+
+
+
+
+@media (min-width: 0px) and (max-width: 370px){
+	.seccion-ofertas .item{
+		width: 98%;
+		margin:1%;
+
+	}
+}
+
+/*
+@media (max-width: 1024px){
+
+}
+*/
